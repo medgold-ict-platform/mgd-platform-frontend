@@ -1,0 +1,36 @@
+{
+  "name": "mgd-platform-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^3.9.4",
+    "@material-ui/icons": "^3.0.2",
+    "ajv": "^6.7.0",
+    "amazon-cognito-identity-js": "^2.0.30",
+    "aws-amplify": "^1.1.4",
+    "aws-amplify-react": "^2.0.5",
+    "aws-sdk": "^2.323.0",
+    "axios": "^0.19.0",
+    "local-storage": "^1.4.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.4.2",
+    "react-dropzone": "^8.2.0",
+    "react-geocode": "^0.1.2",
+    "react-places-autocomplete": "^7.2.0",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "superagent": "^3.8.3",
+    "superagent-promise": "^1.1.0",
+    "swagger-ui-react": "^3.24.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "jest": "20.0.4"
+  }
+}
